@@ -1,5 +1,5 @@
 const { exec } = require('child_process')
-const { wechatUrl, driveLetter } = require('../config/index')
+const { wechatUrl } = require('../config/index')
 
 function main() {
   exec(`"${wechatUrl}"`)
